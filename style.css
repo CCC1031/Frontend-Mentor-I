@@ -1,12 +1,19 @@
 @font-face {
-    font-family: 'Hanken Grotesk';
+    font-family: 'HankenGrotesk';
     font-display: swap;
-    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf');
-    font-weight: 100 800 format('truetype');
-  }
+    font-weight: 100 800;
+    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') 
+         format('truetype');
+}
 
-  body {
-    font-family: 'Hanken Grotesk;
-  }
+  --font-family-default: 'HankenGrotesk'; 
+  
+body {
+  font-family: var(--font-family-default);
+}
 
- 
+* {
+  margin: 0; 
+}
+
+
