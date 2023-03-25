@@ -67,10 +67,20 @@ button {
   cursor: pointer;
 }
 
-.result-summary { 
+main { 
   border: 1px solid black; 
   height: 50vh; 
-  width: 75vh; 
+  width: 70vh; 
   margin: 0; 
   border-radius: 2vw;
+}
+.result-summary { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.result-side {
+  border: 1px solid black; 
+  height: 50vh; 
+  border-radius: 2vw;
+
 }
